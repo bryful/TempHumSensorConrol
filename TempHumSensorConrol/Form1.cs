@@ -7,7 +7,7 @@ namespace TempHumSensorConrol
             InitializeComponent();
         }
     }
-    private async void conectionTest()
+    private async void connectionTest()
 		{
 			var client = new Esp32TcpClient(tbIP.Text,(int)numPort.Value); // Žq‹@‚ÌIP
 
